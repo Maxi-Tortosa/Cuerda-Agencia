@@ -1,110 +1,4 @@
 @charset "UTF-8";
-/* RESPONSIVE TABLET */
-@media only screen and (min-width: 376px) and (max-width: 768px) {
-  /* Compartido */
-  /* Header */
-  .header__contenedor1--logo {
-    height: 125px; }
-  .header__navbar--slogan {
-    font-size: 1.5rem;
-    position: relative;
-    left: 13rem; }
-  /* Footer */
-  .footer__motivarContacto {
-    margin: 0px 80px; }
-  .footer__motivarContacto--titulo {
-    font-size: 3rem; }
-  .footer__motivarContacto--texto {
-    font-size: 1.5rem; }
-  .footer__motivarContacto--mail {
-    font-size: 1.5rem; }
-  .footer__motivarContacto--telefono {
-    font-size: 1.5rem; }
-  .form-control, .form-group {
-    font-size: 1.5rem; }
-  .botonEnviar {
-    font-size: 1.5rem; }
-  .form-check {
-    margin-left: 65px; }
-  .footer__copy--texto {
-    font-size: 1.5rem; }
-  /* Home */
-  /* Section */
-  .section__tituloPresentacion {
-    height: 350px;
-    background-size: cover;
-    padding-left: 0.5rem; }
-  .section__tituloPresentacion--titulo {
-    width: 30%;
-    font-size: 3.5rem;
-    top: 0.5rem;
-    left: 1.5rem; }
-  .section__descripcionPresentacion--texto {
-    font-size: 1.5rem;
-    padding: 20px; } }
-
-/* RESPONSIVE DESKTOP */
-@media only screen and (min-width: 769px) {
-  /* Compartido */
-  /* Header */
-  .header__contenedor1--logo {
-    height: 140px; }
-  .header__navbar--slogan {
-    font-size: 1.5rem;
-    margin-right: 15rem; }
-  .navbar-collapse {
-    font-size: 1.3rem; }
-  /* Footer */
-  .footer__motivarContacto {
-    margin: 0px 200px; }
-  .footer__motivarContacto--titulo {
-    font-size: 2.5rem; }
-  .footer__motivarContacto--texto {
-    font-size: 1rem; }
-  .footer__motivarContacto--mail {
-    font-size: 1rem; }
-  .footer__motivarContacto--telefono {
-    font-size: 1rem; }
-  .form-control, .form-group {
-    font-size: 1rem; }
-  .botonEnviar {
-    font-size: 1.5rem; }
-  .form-check {
-    margin-left: 65px; }
-  .footer__copy--texto {
-    font-size: 1rem; }
-  /* Home */
-  /* Section*/
-  .section__tituloPresentacion {
-    height: 500px;
-    background-size: cover;
-    padding-left: 0.5rem; }
-  .section__tituloPresentacion--titulo {
-    width: 50%;
-    top: 1.6rem;
-    left: 6rem;
-    position: absolute; }
-  .section__servicios--servicio {
-    border: solid purple 5px;
-    margin-top: 1rem;
-    margin-left: 1rem; }
-  .section__servicios--boton:hover a {
-    background-color: aqua;
-    transform: scale(1.2, 1.2); }
-  .section__clientes--titulo {
-    font-size: 2rem;
-    margin-bottom: 5rem; }
-  .section__clientes {
-    padding: 30px;
-    margin-top: 15px; }
-  /* Secciones*/
-  /* Seccion */
-  .section__servicio--descripcion, .section__servicio--titulo {
-    padding-left: 40px;
-    padding-right: 40px; }
-  .section__servicio--descripcion {
-    font-size: 1.5rem; } }
-
 body {
   font-family: 'Prompt', sans-serif;
   font-weight: 700; }
@@ -127,6 +21,9 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
+
+#header__contenedor1--slogandesktop {
+  display: none; }
 
 .header__contenedor1--logo {
   margin-left: 10px;
@@ -192,7 +89,7 @@ footer {
 
 .section__tituloPresentacion--titulo {
   width: 30%;
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 0px;
   position: relative;
   top: 0.5rem; }
@@ -310,3 +207,114 @@ footer {
   font-size: 1.2rem;
   padding: 0px 15px 7px 7px;
   font-weight: 300; }
+
+/* RESPONSIVE TABLET */
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  /* Compartido */
+  /* Header */
+  .header__contenedor1--logo {
+    height: 125px; }
+  .header__navbar--slogan {
+    font-size: 1.5rem;
+    position: relative;
+    left: 13rem; }
+  /* Footer */
+  .footer__motivarContacto {
+    margin: 0px 80px; }
+  .footer__motivarContacto--titulo {
+    font-size: 3rem; }
+  .footer__motivarContacto--texto {
+    font-size: 1.5rem; }
+  .footer__motivarContacto--mail {
+    font-size: 1.5rem; }
+  .footer__motivarContacto--telefono {
+    font-size: 1.5rem; }
+  .form-control, .form-group {
+    font-size: 1.5rem; }
+  .botonEnviar {
+    font-size: 1.5rem; }
+  .form-check {
+    margin-left: 65px; }
+  .footer__copy--texto {
+    font-size: 1.5rem; }
+  /* Home */
+  /* Section */
+  .section__tituloPresentacion {
+    height: 350px;
+    background-size: cover;
+    padding-left: 0.5rem; }
+  .section__tituloPresentacion--titulo {
+    width: 30%;
+    font-size: 3.5rem;
+    top: 0.5rem;
+    left: 1.5rem; }
+  .section__descripcionPresentacion--texto {
+    font-size: 1.5rem;
+    padding: 20px; } }
+
+/* RESPONSIVE DESKTOP */
+@media only screen and (min-width: 769px) {
+  /* Compartido */
+  /* Header */
+  .header__contenedor1--logo {
+    height: 140px; }
+  .header__navbar--slogan {
+    font-size: 1.5rem;
+    margin-right: 15rem;
+    display: none; }
+  #header__contenedor1--slogandesktop {
+    display: inline;
+    font-size: 2rem;
+    margin: 0px; }
+  .navbar-collapse {
+    font-size: 1.3rem; }
+  /* Footer */
+  .footer__motivarContacto {
+    margin: 0px 200px; }
+  .footer__motivarContacto--titulo {
+    font-size: 2.5rem; }
+  .footer__motivarContacto--texto {
+    font-size: 1rem; }
+  .footer__motivarContacto--mail {
+    font-size: 1rem; }
+  .footer__motivarContacto--telefono {
+    font-size: 1rem; }
+  .form-control, .form-group {
+    font-size: 1rem; }
+  .botonEnviar {
+    font-size: 1.5rem; }
+  .form-check {
+    margin-left: 65px; }
+  .footer__copy--texto {
+    font-size: 1rem; }
+  /* Home */
+  /* Section*/
+  .section__tituloPresentacion {
+    height: 400px;
+    background-size: cover;
+    padding-left: 0.5rem; }
+  .section__tituloPresentacion--titulo {
+    width: 18rem;
+    font-size: 390%;
+    top: 0.8rem;
+    left: 4rem; }
+  .section__servicios--servicio {
+    border: solid purple 5px;
+    margin-top: 1rem;
+    margin-left: 1rem; }
+  .section__servicios--boton:hover a {
+    background-color: aqua;
+    transform: scale(1.2, 1.2); }
+  .section__clientes--titulo {
+    font-size: 2rem;
+    margin-bottom: 5rem; }
+  .section__clientes {
+    padding: 30px;
+    margin-top: 15px; }
+  /* Secciones*/
+  /* Seccion */
+  .section__servicio--descripcion, .section__servicio--titulo {
+    padding-left: 40px;
+    padding-right: 40px; }
+  .section__servicio--descripcion {
+    font-size: 1.5rem; } }
