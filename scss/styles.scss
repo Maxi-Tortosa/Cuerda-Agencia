@@ -84,7 +84,9 @@ footer {background-color: black;
 
 .section__clientes {background-color: rgba(241, 188, 82, 1);padding: 0px;}
 
-.section__clientes--titulo {font-size: 17pt; padding: 15px 15px 0px 15px; margin:0px;}
+.section__clientes--titulo {font-size: 17pt; padding: 15px; margin:0px;}
+
+.section__clientes--logoCliente {padding:0px; display: flex; flex-direction: row; justify-content: center;}
 
 .section__clientes--img{ width:130px; height: auto;}
 
