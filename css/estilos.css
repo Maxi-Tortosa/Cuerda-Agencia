@@ -31,31 +31,31 @@ footer {
   padding: 15px; }
 
 .footer__motivarContacto--titulo {
-  text-align: center;
-  font-size: 2rem;
+  font-size: 17pt;
   font-weight: 500; }
 
 .footer__motivarContacto--texto {
-  font-size: 1rem; }
+  font-size: 12pt; }
 
 .footer__motivarContacto--mail, .footer__motivarContacto--telefono {
   font-weight: 500;
-  font-size: 1.3rem; }
+  font-size: 12pt; }
 
 .botonEnviar {
-  background-color: yellow;
+  background-color: #f1bc52;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 12pt;
   padding: 2px;
   color: black; }
 
 .footer__copy {
-  background-color: yellow; }
+  background-color: #f1bc52; }
 
 .footer__copy--texto {
   margin: 0px;
   color: black;
-  text-align: center; }
+  text-align: center;
+  font-size: 12pt; }
 
 /* Home */
 /* Section */
@@ -188,12 +188,7 @@ footer {
       margin: 5px;
       font-weight: 500; }
 
-/* Gestión de Redes Sociales */
-.section__servicio--listaGestionDeRedesSociales--item {
-  font-size: 1.2rem;
-  padding: 0px 15px 7px 7px;
-  font-weight: 300; }
-
+/* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
 @media only screen and (min-width: 376px) and (max-width: 768px) {
   /* Compartido */
