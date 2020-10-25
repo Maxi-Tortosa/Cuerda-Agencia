@@ -42,10 +42,8 @@ header {
     padding: 0px; }
   .navbar a {
     color: black !important; }
-  .navbar .dropdown-menu {
-    background-color: black !important; }
-    .navbar .dropdown-menu a {
-      color: black !important; }
+  .navbar .dropdown-menu a {
+    color: black !important; }
 
 /* Footer */
 footer {
