@@ -34,13 +34,18 @@ header {
 
 /* Nav */
 .navbar {
-  background-color: black; }
+  background-color: #f1bc52;
+  padding: 0px 16px; }
+  .navbar .navbar-brand {
+    position: relative;
+    left: 130px;
+    padding: 0px; }
   .navbar a {
-    color: white !important; }
-  .navbar .dropdown-menu a {
     color: black !important; }
-  .navbar button {
-    background-color: yellow; }
+  .navbar .dropdown-menu {
+    background-color: black !important; }
+    .navbar .dropdown-menu a {
+      color: black !important; }
 
 /* Footer */
 footer {
