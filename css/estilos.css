@@ -7,38 +7,13 @@ a {
   text-decoration: none; }
 
 /* Compartido */
-/* Header */
-header {
-  background-color: yellow;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-bottom: 0px; }
-
-.header__contenedor1 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; }
-
-#header__contenedor1--slogandesktop {
-  display: none; }
-
-.header__contenedor1--logo {
-  margin-left: 10px;
-  height: 100px; }
-
-.header__iconosRedes {
-  margin: 0px 20px 0px 0px; }
-
 /* Nav */
 .navbar {
   background-color: #f1bc52;
   padding: 0px 16px; }
   .navbar .navbar-brand {
     position: relative;
-    right: 135px;
+    right: 105px;
     padding: 0px; }
   .navbar a {
     color: black !important; }
@@ -92,18 +67,24 @@ footer {
 
 .section__tituloPresentacion--titulo {
   width: 30%;
-  font-size: 1.6rem;
+  font-size: 25pt;
   margin: 0px;
   position: relative;
-  top: 0.5rem; }
+  top: 0.3rem; }
 
 .section__descripcionPresentacion {
-  background-color: yellow; }
+  background-color: #f1bc52; }
+
+.section__descripcionPresentacion--subtitulo {
+  font-size: 17pt;
+  padding: 15px 15px 0px 15px;
+  margin: 0px; }
 
 .section__descripcionPresentacion--texto {
-  font-size: 1.2rem;
+  font-size: 12pt;
   padding: 15px;
-  font-weight: 300; }
+  font-weight: 300;
+  margin: 0px; }
 
 .col-12 {
   display: flex;

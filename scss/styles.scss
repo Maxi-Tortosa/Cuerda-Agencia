@@ -5,32 +5,10 @@ a {text-decoration: none;}
 
 /* Compartido */
 
-/* Header */
-
-header { background-color: yellow; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-bottom: 0px;}
-    
-
-.header__contenedor1{width:100%;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;}
-
-#header__contenedor1--slogandesktop {display: none;}
-
-.header__contenedor1--logo {margin-left: 10px; height: 100px;}
-
-
-.header__iconosRedes {margin: 0px 20px 0px 0px;}
-
 /* Nav */
 
 .navbar {background-color: rgba(241, 188, 82, 1); padding: 0px 16px;
-        .navbar-brand {position: relative; right: 135px; padding: 0px;}	
+        .navbar-brand {position: relative; right: 105px; padding: 0px;}	
          a{color: black !important;}
         .dropdown-menu { 
         a {color: black !important;}}
@@ -78,14 +56,16 @@ footer {background-color: black;
     padding-left: 0.5rem;}
 
 .section__tituloPresentacion--titulo {width: 30%;
-          font-size: 1.6rem;
+          font-size: 25pt;
           margin:0px;   
           position: relative;
-          top: 0.5rem;}
+          top: 0.3rem;}
         
-.section__descripcionPresentacion {background-color: yellow;}
+.section__descripcionPresentacion {background-color: rgba(241, 188, 82, 1);}
 
-.section__descripcionPresentacion--texto {font-size: 1.2rem; padding: 15px; font-weight: 300;}
+.section__descripcionPresentacion--subtitulo {font-size: 17pt; padding: 15px 15px 0px 15px;margin:0px;}
+
+.section__descripcionPresentacion--texto {font-size: 12pt; padding: 15px; font-weight: 300;margin: 0px;}
 
 
 .col-12 {display:flex;
