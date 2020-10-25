@@ -61,12 +61,14 @@ footer {background-color: black;
           position: relative;
           top: 0.3rem;}
         
-.section__descripcionPresentacion {background-color: rgba(241, 188, 82, 1);}
+.section__descripcionPresentacion {background-color:rgba(241, 188, 82, 1);}
 
 .section__descripcionPresentacion--subtitulo {font-size: 17pt; padding: 15px 15px 0px 15px;margin:0px;}
 
 .section__descripcionPresentacion--texto {font-size: 12pt; padding: 15px; font-weight: 300;margin: 0px;}
 
+
+.section__pdv{background-color: rgba(154, 211, 218, 1);}
 
 .col-12 {display:flex;
         flex-direction: column;
@@ -74,23 +76,17 @@ footer {background-color: black;
         padding: 20px;
         }
 
-.section__servicios--img {width: 250px; padding:15px 0px 15px 0px;}
+.section__pdv--img {width: 180px; padding:15px 0px 15px 0px;}
 
-#rrss{width: 230px;}
+.section__pdv--titulo {font-weight: 700; text-align: center; font-size: 18pt; margin: 0px;}
 
-#campanas{width: 225px;}
+.section__pdv--descripcion{text-align: center; font-weight: 300 ; font-size: 12pt; margin: 0px;}
 
-.section__servicios--titulo {font-weight: 700; text-align: center; font-size: 2.5rem; margin: 0px;}
+.section__clientes {background-color: rgba(241, 188, 82, 1);padding: 0px;}
 
-.section__clientes {padding:15px; margin-top: 15px;}
-
-.section__clientes--titulo {font-size: 2rem;}
+.section__clientes--titulo {font-size: 17pt; padding: 15px 15px 0px 15px; margin:0px;}
 
 .section__clientes--img{ width:130px; height: auto;}
-
-.section__servicios--boton{ font-size: 1.8rem; 
-                            a{text-decoration: none; color: white; background-color: purple ; width: 8rem; text-align: center;}
-}
 
 /* Secciones */
 

@@ -86,47 +86,43 @@ footer {
   font-weight: 300;
   margin: 0px; }
 
+.section__pdv {
+  background-color: #9ad3da; }
+
 .col-12 {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px; }
 
-.section__servicios--img {
-  width: 250px;
+.section__pdv--img {
+  width: 180px;
   padding: 15px 0px 15px 0px; }
 
-#rrss {
-  width: 230px; }
-
-#campanas {
-  width: 225px; }
-
-.section__servicios--titulo {
+.section__pdv--titulo {
   font-weight: 700;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 18pt;
+  margin: 0px; }
+
+.section__pdv--descripcion {
+  text-align: center;
+  font-weight: 300;
+  font-size: 12pt;
   margin: 0px; }
 
 .section__clientes {
-  padding: 15px;
-  margin-top: 15px; }
+  background-color: #f1bc52;
+  padding: 0px; }
 
 .section__clientes--titulo {
-  font-size: 2rem; }
+  font-size: 17pt;
+  padding: 15px 15px 0px 15px;
+  margin: 0px; }
 
 .section__clientes--img {
   width: 130px;
   height: auto; }
-
-.section__servicios--boton {
-  font-size: 1.8rem; }
-  .section__servicios--boton a {
-    text-decoration: none;
-    color: white;
-    background-color: purple;
-    width: 8rem;
-    text-align: center; }
 
 /* Secciones */
 /* Compartido */
