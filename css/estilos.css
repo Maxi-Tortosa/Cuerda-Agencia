@@ -228,9 +228,7 @@ footer {
     padding: 20px 40px 0px 40px;
     margin: 0px; }
   .section__descripcionPresentacion--texto {
-    font-size: 18pt;
-    padding: 20px 40px 0px 40px;
-    margin: 0px; }
+    padding: 40px; }
   .section__pdv--titulo {
     font-weight: 700;
     text-align: center;
