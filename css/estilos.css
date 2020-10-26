@@ -13,8 +13,11 @@ a {
   padding: 0px 16px; }
   .navbar .navbar-brand {
     position: relative;
-    right: 105px;
+    right: 115px;
     padding: 0px; }
+    .navbar .navbar-brand img {
+      width: 60px;
+      height: 60px; }
   .navbar a {
     color: black !important; }
   .navbar .dropdown-menu a {
@@ -143,17 +146,17 @@ footer {
 /* Secciones */
 /* Compartido */
 .section__servicio--titulo {
-  font-size: 2rem;
+  font-size: 25pt;
   padding: 15px 15px 0px 15px;
   font-weight: 500; }
 
 .section__servicio--descripcion {
-  font-size: 1.2rem;
+  font-size: 12pt;
   padding: 15px;
   font-weight: 300; }
 
 .section__servicio--boton {
-  font-size: 1.2rem;
+  font-size: 10pt;
   margin-top: 25px;
   margin-bottom: 25px;
   display: flex;
@@ -161,8 +164,9 @@ footer {
   justify-content: center; }
 
 .section__servicio--boton a {
-  background-color: yellow;
-  font-weight: 700;
+  font-size: 12pt;
+  background-color: #f1bc52;
+  font-weight: 300;
   padding: 10px;
   text-decoration: none;
   color: black;
@@ -172,14 +176,19 @@ footer {
 
 @keyframes cta {
   100% {
-    background-color: aqua;
-    transform: scale(1.1, 1.1); } }
+    background-color: #9ad3da;
+    font-weight: 700; } }
 
 /* Identidad */
 .section__servicio--listaIdentidad--item {
-  font-size: 1.2rem;
+  font-size: 12pt;
   padding: 0px 15px 7px 7px;
   font-weight: 300; }
+
+/* Gestion de RR SS */
+.section__servicio--listaGestionDeRedesSociales--item {
+  font-weight: 300;
+  font-size: 12pt; }
 
 /* Campañas */
 .section__servicio--tablaCampanas {
@@ -200,15 +209,37 @@ footer {
 
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (min-width: 376px) and (max-width: 769px) {
   /* Compartido */
   /* Header */
-  .header__contenedor1--logo {
-    height: 125px; }
-  .header__navbar--slogan {
-    font-size: 1.5rem;
-    position: relative;
-    left: 13rem; }
+  .navbar {
+    background-color: #f1bc52;
+    padding: 0px 16px; }
+    .navbar .navbar-brand {
+      position: relative;
+      right: 300px;
+      padding: 0px; }
+      .navbar .navbar-brand img {
+        width: 120px;
+        height: 120px; }
+  /* Section */
+  .section__descripcionPresentacion--subtitulo {
+    font-size: 18pt;
+    padding: 20px 40px 0px 40px;
+    margin: 0px; }
+  .section__descripcionPresentacion--texto {
+    padding: 40px; }
+  .section__pdv--titulo {
+    font-weight: 700;
+    text-align: center;
+    font-size: 18pt;
+    margin: 0px; }
+  .section__pdv--descripcion {
+    text-align: center;
+    font-weight: 300;
+    font-size: 18pt;
+    margin: 0px;
+    padding: 30px; }
   /* Footer */
   .footer__motivarContacto {
     margin: 0px 80px; }
@@ -244,7 +275,7 @@ footer {
     padding: 20px; } }
 
 /* RESPONSIVE DESKTOP */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 770px) {
   /* Compartido */
   /* Header */
   .header__contenedor1--logo {
