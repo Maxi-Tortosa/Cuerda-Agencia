@@ -209,7 +209,7 @@ footer {
 
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
-@media only screen and (min-width: 376px) and (max-width: 768px) {
+@media only screen and (min-width: 376px) and (max-width: 769px) {
   /* Compartido */
   /* Header */
   .navbar {
@@ -277,7 +277,7 @@ footer {
     padding: 20px; } }
 
 /* RESPONSIVE DESKTOP */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 770px) {
   /* Compartido */
   /* Header */
   .header__contenedor1--logo {
