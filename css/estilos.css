@@ -225,10 +225,12 @@ footer {
   /* Section */
   .section__descripcionPresentacion--subtitulo {
     font-size: 18pt;
-    padding: 40px 40px 0px 40px;
+    padding: 20px 40px 0px 40px;
     margin: 0px; }
   .section__descripcionPresentacion--texto {
-    padding: 0px 40px 0px 40px; }
+    font-size: 18pt;
+    padding: 20px 40px 0px 40px;
+    margin: 0px; }
   .section__pdv--titulo {
     font-weight: 700;
     text-align: center;
