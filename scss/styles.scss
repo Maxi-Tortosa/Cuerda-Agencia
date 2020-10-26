@@ -44,7 +44,15 @@ footer {background-color: black;
 .footer__copy--texto{margin:0px;
                     color: black;
                     text-align: center;
-                    font-size: 12pt;}
+                    font-size: 12pt;
+                    padding: 15px;}
+
+.footer__redes {background-color: rgba(154, 211, 218, 1);
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                img{width: 30px; margin: 15px; }
+            }
 
 /* Home */
 
