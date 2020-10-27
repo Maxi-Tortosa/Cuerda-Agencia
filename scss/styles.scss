@@ -152,57 +152,41 @@ footer {background-color: black;
           }
     
     /* Section */
+    
+    .section__tituloPresentacion--titulo {left:40px; top: 20px;}
 
     .section__descripcionPresentacion--subtitulo {font-size: 18pt; padding: 20px 40px 0px 40px; margin:0px;}
 
-    .section__descripcionPresentacion--texto {padding: 40px;}
+    .section__descripcionPresentacion--texto {padding: 20px 40px 20px 40px; font-size: 18pt;}
     
     .section__pdv--titulo {font-weight: 700; text-align: center; font-size: 18pt; margin: 0px;}
 
     .section__pdv--descripcion{text-align: center; font-weight: 300 ; font-size: 18pt; margin: 0px;
                                 padding: 30px;}
-        
+    
+    .section__clientes--titulo {font-size: 18pt; padding: 20px 40px 20px 40px;}
+
     /* Footer */
     
-    .footer__motivarContacto { margin: 0px 80px}
+    .footer__motivarContacto { margin: 0px 40px}
     
-    .footer__motivarContacto--titulo {font-size:3rem;}
+    .footer__motivarContacto--titulo {font-size: 24pt;}
     
-    .footer__motivarContacto--texto{font-size: 1.5rem; }
+    .footer__motivarContacto--texto{font-size: 18pt; }
     
-    .footer__motivarContacto--mail {font-size: 1.5rem; }
+    .footer__motivarContacto--mail {font-size: 18pt; }
     
-    .footer__motivarContacto--telefono {font-size: 1.5rem; }
+    .footer__motivarContacto--telefono {font-size: 18pt; }
     
-    .form-control, .form-group {font-size: 1.5rem;}
+    .form-control, .form-group {font-size: 18pt;}
     
-    .botonEnviar {font-size: 1.5rem;}
+    .botonEnviar {font-size: 18pt;}
     
     .form-check{margin-left: 65px; }
     
-    .footer__copy--texto{font-size: 1.5rem;}
+    .footer__copy--texto{font-size: 18pt; padding: 20px;}
     
-    /* Home */
-    
-    /* Section */
-    
-    .section__tituloPresentacion {
-        height: 350px;
-        background-size: cover;
-        padding-left: 0.5rem;}
-    
-    .section__tituloPresentacion--titulo {
-            width: 30%;
-            font-size: 3.5rem;
-            top: 0.5rem; 
-            left:1.5rem}
-    
-    .section__descripcionPresentacion--texto {
-                font-size: 1.5rem;
-                padding: 20px;
-                }
-    
-    
+    .footer__redes { img{width: 45px; margin: 15px; }  
     }
 
     /* RESPONSIVE DESKTOP */
@@ -279,4 +263,4 @@ footer {background-color: black;
     
     .section__servicio--descripcion, .section__servicio--titulo {padding-left: 40px; padding-right: 40px;}
     .section__servicio--descripcion {font-size: 1.5rem;}
-       }
+}}

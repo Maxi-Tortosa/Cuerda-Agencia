@@ -223,12 +223,16 @@ footer {
         width: 120px;
         height: 120px; }
   /* Section */
+  .section__tituloPresentacion--titulo {
+    left: 40px;
+    top: 20px; }
   .section__descripcionPresentacion--subtitulo {
     font-size: 18pt;
     padding: 20px 40px 0px 40px;
     margin: 0px; }
   .section__descripcionPresentacion--texto {
-    padding: 40px; }
+    padding: 20px 40px 20px 40px;
+    font-size: 18pt; }
   .section__pdv--titulo {
     font-weight: 700;
     text-align: center;
@@ -240,42 +244,35 @@ footer {
     font-size: 18pt;
     margin: 0px;
     padding: 30px; }
+  .section__clientes--titulo {
+    font-size: 18pt;
+    padding: 20px 40px 20px 40px; }
   /* Footer */
   .footer__motivarContacto {
-    margin: 0px 80px; }
+    margin: 0px 40px; }
   .footer__motivarContacto--titulo {
-    font-size: 3rem; }
+    font-size: 24pt; }
   .footer__motivarContacto--texto {
-    font-size: 1.5rem; }
+    font-size: 18pt; }
   .footer__motivarContacto--mail {
-    font-size: 1.5rem; }
+    font-size: 18pt; }
   .footer__motivarContacto--telefono {
-    font-size: 1.5rem; }
+    font-size: 18pt; }
   .form-control, .form-group {
-    font-size: 1.5rem; }
+    font-size: 18pt; }
   .botonEnviar {
-    font-size: 1.5rem; }
+    font-size: 18pt; }
   .form-check {
     margin-left: 65px; }
   .footer__copy--texto {
-    font-size: 1.5rem; }
-  /* Home */
-  /* Section */
-  .section__tituloPresentacion {
-    height: 350px;
-    background-size: cover;
-    padding-left: 0.5rem; }
-  .section__tituloPresentacion--titulo {
-    width: 30%;
-    font-size: 3.5rem;
-    top: 0.5rem;
-    left: 1.5rem; }
-  .section__descripcionPresentacion--texto {
-    font-size: 1.5rem;
-    padding: 20px; } }
+    font-size: 18pt;
+    padding: 20px; }
+  .footer__redes img {
+    width: 45px;
+    margin: 15px; }
+  /* RESPONSIVE DESKTOP */ }
 
-/* RESPONSIVE DESKTOP */
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 376px) and (max-width: 769px) and (min-width: 770px) {
   /* Compartido */
   /* Header */
   .header__contenedor1--logo {
