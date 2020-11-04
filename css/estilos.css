@@ -62,6 +62,7 @@ footer {
   padding: 15px; }
 
 .footer__redes {
+  height: 60px;
   background-color: #9ad3da;
   display: flex;
   flex-direction: row;
