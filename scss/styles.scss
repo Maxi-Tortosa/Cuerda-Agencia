@@ -6,7 +6,7 @@ a {text-decoration: none;}
 
 /* Nav */
 
-.navbar {background-color: rgba(241, 188, 82, 1); padding: 0px 16px;
+.navbar {background-color: rgba(241, 188, 82, 1); padding: 0px 16px; 
         button {border: none;}
         .navbar-toggler-icon{ height: 25px; width: 25px;}
         .navbar-brand {position: relative; right: 115px; padding: 0px;
@@ -57,7 +57,7 @@ footer {background-color: black;
 /* Section */
 
 
-.section__tituloPresentacion{height: 650px;
+.section__tituloPresentacion{height: 670px;
     background-image: url("../multimedia/imagenPresentacion.jpg");
     background-size: cover;
     }
@@ -68,13 +68,13 @@ footer {background-color: black;
           padding: 5px;
           margin:0px 0px 0px 20px;   
           position: relative;
-          top: 30px;
+          top: 115px;
           background-color: rgba(241, 188, 82, 1) ;}
 
 
 .section__descripcionPresentacion--texto {font-size: 13pt; padding: 10px; font-weight: 300; margin: 0px 0px 0px 20px;
                                         background-color: rgba(241, 188, 82, 1) ;
-                                        position: relative; top: 70px; width: 89%; }
+                                        position: relative; top: 135px; width: 89%; }
 
 
 .section__pdv{background-color: rgba(154, 211, 218, 1);
