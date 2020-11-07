@@ -70,7 +70,7 @@ footer {
 /* Home */
 /* Section */
 .section__tituloPresentacion {
-  height: 670px;
+  height: 660px;
   background-image: url("../multimedia/imagenPresentacion.jpg");
   background-size: cover; }
 
@@ -81,7 +81,7 @@ footer {
   padding: 5px;
   margin: 0px 0px 0px 20px;
   position: relative;
-  top: 115px;
+  top: 93px;
   background-color: #f1bc52; }
 
 .section__descripcionPresentacion--texto {
@@ -91,7 +91,7 @@ footer {
   margin: 0px 0px 0px 20px;
   background-color: #f1bc52;
   position: relative;
-  top: 135px;
+  top: 113px;
   width: 89%; }
 
 .section__pdv {
@@ -145,20 +145,28 @@ footer {
 
 /* Secciones */
 /* Compartido */
-.section__servicio--titulo {
-  font-size: 25pt;
-  padding: 15px 15px 0px 15px;
-  font-weight: 500; }
+.section__servicio--contenedor {
+  background-image: url("../multimedia/imagenPresentacion.jpg");
+  background-size: 693px, 660px, auto;
+  padding: 30px 25px 30px 25px; }
+
+.section__servicio--contenedor--titulo {
+  font-size: 29pt;
+  font-weight: 700;
+  margin: 0px;
+  background-color: #f1bc52; }
 
 .section__servicio--descripcion {
-  font-size: 12pt;
-  padding: 15px;
-  font-weight: 300; }
+  font-size: 13pt;
+  padding: 15px 25px 15px 25px;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: #f1bc52;
+  margin: 0px; }
 
 .section__servicio--boton {
   font-size: 10pt;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding: 25px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center; }
@@ -191,21 +199,44 @@ footer {
   font-size: 12pt; }
 
 /* Campañas */
-.section__servicio--tablaCampanas {
-  margin: 15px;
-  width: auto; }
-  .section__servicio--tablaCampanas th {
-    text-align: center;
-    font-size: 1.2rem;
-    color: yellow; }
-    .section__servicio--tablaCampanas th ol, .section__servicio--tablaCampanas th ul {
-      margin: 0px;
-      padding: 0px; }
-      .section__servicio--tablaCampanas th ol li, .section__servicio--tablaCampanas th ul li {
-        list-style: none;
-        text-align: center;
-        margin: 5px;
-        font-weight: 500; }
+.section__servicioCampanas {
+  background-image: url("../multimedia/imagenPresentacion.jpg");
+  background-size: 693px, 660px, auto; }
+
+.col-12-xl-6 {
+  width: 300.02px; }
+
+.section__servicioCampanas--listaPlataformas ul {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioCampanas--listaPlataformas ul p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioCampanas--listaPlataformas ul li {
+    background-color: #f1bc52;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
+
+.section__servicioCampanas--listaQueIncluye ol {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioCampanas--listaQueIncluye ol p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioCampanas--listaQueIncluye ol li {
+    background-color: #f1bc52;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
 
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
