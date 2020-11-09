@@ -217,7 +217,7 @@ footer {
     font-weight: 700;
     text-align: center; }
   .section__servicioCampanas--listaPlataformas ul li {
-    background-color: #f1bc52;
+    background-color: #ff8f4b;
     padding: 0px;
     margin: 10px 5px;
     text-align: center; }
@@ -233,11 +233,12 @@ footer {
     font-weight: 700;
     text-align: center; }
   .section__servicioCampanas--listaQueIncluye ol li {
-    background-color: #f1bc52;
+    background-color: #ff8f4b;
     padding: 0px;
     margin: 10px 5px;
     text-align: center; }
 
+/* Diseño Web */
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
 @media only screen and (min-width: 376px) and (max-width: 769px) {

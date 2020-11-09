@@ -147,7 +147,7 @@ footer {background-color: black;
     ul { list-style: none; padding: 0px; margin: 15px 0px; font-size: 22px; 
         p{ background-color: $CelesteC; font-size: 20pt; font-weight: 700;text-align: center; }
        
-        li {background-color: $AmarilloP; padding: 0px; margin: 10px 5px;text-align: center;}
+        li {background-color: $NaranjaP; padding: 0px; margin: 10px 5px;text-align: center;}
     }
 }
 
@@ -155,9 +155,14 @@ footer {background-color: black;
     ol { list-style: none; padding: 0px; margin: 15px 0px; font-size: 22px; 
         p{ background-color: $CelesteC; font-size: 20pt; font-weight: 700; text-align: center;}
        
-        li {background-color: $AmarilloP; padding: 0px; margin: 10px 5px;text-align: center;}
+        li {background-color: $NaranjaP; padding: 0px; margin: 10px 5px;text-align: center;}
     }
 }
+
+/* Diseño Web */
+
+#section__servicio--contenedor--titulo--DW {}
+
 /* -----------------------------------------------------------------------------------------------------*/
 
 /* RESPONSIVE TABLET */
