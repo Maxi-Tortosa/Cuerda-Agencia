@@ -70,7 +70,7 @@ footer {
 /* Home */
 /* Section */
 .section__tituloPresentacion {
-  height: 660px;
+  height: 670px;
   background-image: url("../multimedia/imagenPresentacion.jpg");
   background-size: cover; }
 
@@ -81,7 +81,7 @@ footer {
   padding: 5px;
   margin: 0px 0px 0px 20px;
   position: relative;
-  top: 93px;
+  top: 118px;
   background-color: #f1bc52; }
 
 .section__descripcionPresentacion--texto {
@@ -91,7 +91,7 @@ footer {
   margin: 0px 0px 0px 20px;
   background-color: #f1bc52;
   position: relative;
-  top: 113px;
+  top: 138px;
   width: 89%; }
 
 .section__pdv {
@@ -187,6 +187,9 @@ footer {
     background-color: #9ad3da;
     font-weight: 700; } }
 
+.col-12-xl-6 {
+  width: 300.02px; }
+
 /* Identidad */
 .section__servicio--listaIdentidad--item {
   font-size: 12pt;
@@ -194,17 +197,65 @@ footer {
   font-weight: 300; }
 
 /* Gestion de RR SS */
-.section__servicio--listaGestionDeRedesSociales--item {
-  font-weight: 300;
-  font-size: 12pt; }
+#section__servicio--contenedor--titulo--GestioRS {
+  margin: 0px 30px; }
+
+.section__servicioGestionRS {
+  background-image: url("../multimedia/imagenPresentacion.jpg");
+  background-size: 693px, 660px, auto; }
+
+.section__servicioGestionRS--listaDP ul {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioGestionRS--listaDP ul p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioGestionRS--listaDP ul li {
+    background-color: #ff8f4b;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
+
+.section__servicioGestionRS--listaPP ol {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioGestionRS--listaPP ol p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioGestionRS--listaPP ol li {
+    background-color: #ff8f4b;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
+
+.section__servicioGestionRS--listaCS ol {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioGestionRS--listaCS ol p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioGestionRS--listaCS ol li {
+    background-color: #ff8f4b;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
 
 /* Campañas */
 .section__servicioCampanas {
   background-image: url("../multimedia/imagenPresentacion.jpg");
   background-size: 693px, 660px, auto; }
-
-.col-12-xl-6 {
-  width: 300.02px; }
 
 .section__servicioCampanas--listaPlataformas ul {
   list-style: none;
@@ -239,6 +290,45 @@ footer {
     text-align: center; }
 
 /* Diseño Web */
+#section__servicio--contenedor--titulo--DW {
+  margin: 0px 27px; }
+
+.section__servicioDW {
+  background-image: url("../multimedia/imagenPresentacion.jpg");
+  background-size: 693px, 660px, auto; }
+
+.section__servicioDW--listaPlataformas ul {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioDW--listaPlataformas ul p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioDW--listaPlataformas ul li {
+    background-color: #ff8f4b;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
+
+.section__servicioDW--listaQueIncluye ol {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicioDW--listaQueIncluye ol p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicioDW--listaQueIncluye ol li {
+    background-color: #ff8f4b;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
+
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
 @media only screen and (min-width: 376px) and (max-width: 769px) {
