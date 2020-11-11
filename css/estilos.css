@@ -187,147 +187,51 @@ footer {
     background-color: #9ad3da;
     font-weight: 700; } }
 
+.section__servicio--lista {
+  background-image: url("../multimedia/imagenPresentacion.jpg");
+  background-size: 693px, 660px, auto; }
+
+.section__servicio--lista--items ul, .section__servicio--lista--items ol {
+  list-style: none;
+  padding: 0px;
+  margin: 15px 0px;
+  font-size: 22px; }
+  .section__servicio--lista--items ul p, .section__servicio--lista--items ol p {
+    background-color: #9ad3da;
+    font-size: 20pt;
+    font-weight: 700;
+    text-align: center; }
+  .section__servicio--lista--items ul li, .section__servicio--lista--items ol li {
+    background-color: #ff8f4b;
+    padding: 0px;
+    margin: 10px 5px;
+    text-align: center; }
+
 .col-12-xl-6 {
   width: 300.02px; }
 
-/* Identidad */
-.section__servicio--listaIdentidad--item {
-  font-size: 12pt;
-  padding: 0px 15px 7px 7px;
-  font-weight: 300; }
+/* Campañas Publicitarias */
+#section__servicio--contenedor--titulo--CP {
+  padding: 0px 0px 0px 8px; }
 
 /* Gestion de RR SS */
 #section__servicio--contenedor--titulo--GestionRS {
-  margin: 0px 30px; }
-
-.section__servicioGestionRS {
-  background-image: url("../multimedia/imagenPresentacion.jpg");
-  background-size: 693px, 660px, auto; }
-
-.section__servicioGestionRS--listaDP ul {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioGestionRS--listaDP ul p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioGestionRS--listaDP ul li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
-
-.section__servicioGestionRS--listaPP ol {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioGestionRS--listaPP ol p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioGestionRS--listaPP ol li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
-
-.section__servicioGestionRS--listaCS ol {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioGestionRS--listaCS ol p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioGestionRS--listaCS ol li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
-
-/* Campañas */
-.section__servicioCampanas {
-  background-image: url("../multimedia/imagenPresentacion.jpg");
-  background-size: 693px, 660px, auto; }
-
-.section__servicioCampanas--listaPlataformas ul {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioCampanas--listaPlataformas ul p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioCampanas--listaPlataformas ul li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
-
-.section__servicioCampanas--listaQueIncluye ol {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioCampanas--listaQueIncluye ol p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioCampanas--listaQueIncluye ol li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
+  margin: 0px 30px;
+  padding-left: 6px; }
 
 /* Diseño Web */
 #section__servicio--contenedor--titulo--DW {
-  margin: 0px 27px; }
+  margin: 0px 22px;
+  padding-left: 5px; }
 
-.section__servicioDW {
-  background-image: url("../multimedia/imagenPresentacion.jpg");
-  background-size: 693px, 660px, auto; }
+/* Identidad Visual */
+#section__servicio--contenedor--titulo--IV {
+  padding: 0px 0px 0px 15px;
+  margin: 0px 30px; }
 
-.section__servicioDW--listaPlataformas ul {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioDW--listaPlataformas ul p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioDW--listaPlataformas ul li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
-
-.section__servicioDW--listaQueIncluye ol {
-  list-style: none;
-  padding: 0px;
-  margin: 15px 0px;
-  font-size: 22px; }
-  .section__servicioDW--listaQueIncluye ol p {
-    background-color: #9ad3da;
-    font-size: 20pt;
-    font-weight: 700;
-    text-align: center; }
-  .section__servicioDW--listaQueIncluye ol li {
-    background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
+.section__servicio--lista--items ul li, .section__servicio--lista--items ol li {
+  padding: 3px;
+  margin: 10px 2px; }
 
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
