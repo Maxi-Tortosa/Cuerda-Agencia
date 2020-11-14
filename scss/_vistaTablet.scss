@@ -1,0 +1,106 @@
+/* RESPONSIVE TABLET */
+
+@media only screen and (min-width: 376px) and (max-width: 769px){
+
+    /* Compartido */
+    
+    /* Header */
+
+    .navbar {padding: 0px 20px; 
+        .navbar-toggler-icon{ height: 35px; width: 35px;}
+        .navbar-brand {position: relative; right: 300px; padding: 0px;
+        img {width:105px; height:105px;}
+        }
+        .navbar-collapse{ 
+                        a{font-size: 18pt;}
+        }
+           
+    } 
+   
+           
+    /* Footer */
+    
+    .footer__motivarContacto { margin: 0px 40px}
+    
+    .footer__motivarContacto--titulo {font-size: 24pt;}
+    
+    .footer__motivarContacto--texto{font-size: 18pt; }
+    
+    .footer__motivarContacto--mail {font-size: 18pt; }
+    
+    .footer__motivarContacto--telefono {font-size: 18pt; }
+    
+    .form-control, .form-group {font-size: 18pt;}
+    
+    .botonEnviar {font-size: 18pt;}
+    
+    .form-check{margin-left: 65px; }
+    
+    .footer__copy--texto{font-size: 18pt; padding: 20px;}
+    
+    .footer__redes {
+        
+        img{width: 45px; margin: 15px 55px;}  
+    }
+
+    /* Home */
+
+    /* Section */
+
+    .section__tituloPresentacion {height: 1030px;}
+    
+    .section__tituloPresentacion--titulo {left:40px; top: 230px; margin: 0px; width: 450px; font-size: 40pt;}
+
+    .section__descripcionPresentacion--texto {left:40px; top: 310px; width: 580px; font-size: 22pt;margin: 0px; }
+    
+    .section__pdv--img {width: 200px; padding:15px 0px 15px 0px;}
+
+    .section__pdv--titulo {font-weight: 700; text-align: center; font-size: 19pt; margin: 0px; width: 200px;}
+
+    .section__pdv--descripcion{text-align: center; font-weight: 300 ; font-size: 19pt; margin: 15px 0px 0px 0px; width: 250px;}
+
+    .section__clientes--titulo {font-size: 29pt; padding: 15px; margin:0px; font-weight: 700;}
+
+    /* Secciones */
+
+    /* Section */
+    
+    .section__servicio--contenedor--titulo {font-size: 35pt;  font-weight: 700; 
+    margin: 0px; background-color: $AmarilloP;}
+    
+    .section__servicio--descripcion {font-size: 22pt; padding: 15px 30px 15px 30px; font-weight: 300;
+        line-height: 1.5; background-color: $AmarilloP; margin:0px;}
+    
+    .section__servicio--boton {padding: 25px 0px; display:flex; 
+    flex-direction: row; justify-content: center;}
+    
+    .section__servicio--boton a {font-size: 18pt; } 
+    
+        
+    .section__servicio--lista--items {
+    ul, ol { 
+    p{ font-size: 22pt;}    
+    li { font-size: 22pt;}
+    }
+    }
+    
+    .col-12-xl-6 { width: 450.02px; padding-top: 30px;}
+    
+    /* Campañas Publicitarias */
+    
+    #section__servicio--contenedor--titulo--CP{text-align: center; padding: 0px;}
+    
+    /* Gestion de RR SS */
+    
+    #section__servicio--contenedor--titulo--GestionRS { text-align: center; width: 500px; margin: 0px 110px; }
+    
+    /* Diseño Web */
+    
+    #section__servicio--contenedor--titulo--DW{ margin: 0px 175px; padding-left: 0px; width: 350px; text-align: center;}
+    
+    /* Identidad Visual */
+    
+    #section__servicio--contenedor--titulo--IV {padding: 0px; width: 500px; text-align: center; margin: 0px 100px;}
+    
+    
+}
