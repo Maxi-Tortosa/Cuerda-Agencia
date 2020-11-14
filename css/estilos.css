@@ -17,7 +17,7 @@ a {
     width: 25px; }
   .navbar .navbar-brand {
     position: relative;
-    right: 115px;
+    right: 125px;
     padding: 0px; }
     .navbar .navbar-brand img {
       width: 70px;
@@ -31,14 +31,22 @@ footer {
   padding: 15px 0px 0px 0px; }
 
 .footer__motivarContacto {
-  padding: 15px; }
+  padding-bottom: 0px !important; }
+
+.footer__formulario {
+  padding-top: 0px !important; }
+
+.form-group, .enviar {
+  width: 350px;
+  margin: 0px; }
 
 .footer__motivarContacto--titulo {
   font-size: 17pt;
   font-weight: 500; }
 
 .footer__motivarContacto--texto {
-  font-size: 12pt; }
+  font-size: 12pt;
+  padding: 0px 20px; }
 
 .footer__motivarContacto--mail, .footer__motivarContacto--telefono {
   font-weight: 500;
@@ -50,6 +58,9 @@ footer {
   font-size: 12pt;
   padding: 2px;
   color: black; }
+
+.form-check {
+  margin: 0px 0px 20px 40px; }
 
 .footer__copy {
   background-color: #f1bc52; }
@@ -131,15 +142,6 @@ footer {
   padding: 15px;
   margin: 0px; }
 
-.row {
-  margin: 0px; }
-
-.section__clientes--logoCliente {
-  padding: 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
 .section__clientes--img {
   margin: 0px 40px 0px 40px; }
 
@@ -148,13 +150,15 @@ footer {
 .section__servicio--contenedor {
   background-image: url("../multimedia/imagenPresentacion.jpg");
   background-size: 693px, 660px, auto;
-  padding: 30px 25px 30px 25px; }
+  padding: 80px 25px 80px 25px; }
 
 .section__servicio--contenedor--titulo {
   font-size: 29pt;
   font-weight: 700;
   margin: 0px;
-  background-color: #f1bc52; }
+  background-color: #f1bc52;
+  position: relative;
+  top: 33px; }
 
 .section__servicio--descripcion {
   font-size: 13pt;
@@ -199,15 +203,16 @@ footer {
     background-color: #9ad3da;
     font-size: 20pt;
     font-weight: 700;
-    text-align: center; }
+    text-align: center;
+    width: 300px;
+    margin: 0px;
+    padding: 0px; }
   .section__servicio--lista--items ul li, .section__servicio--lista--items ol li {
     background-color: #ff8f4b;
-    padding: 0px;
-    margin: 10px 5px;
-    text-align: center; }
-
-.col-12-xl-6 {
-  width: 300.02px; }
+    padding: 10px 0px;
+    margin: 10px 0px;
+    text-align: center;
+    width: 300px; }
 
 /* Campañas Publicitarias */
 #section__servicio--contenedor--titulo--CP {
@@ -227,10 +232,6 @@ footer {
 #section__servicio--contenedor--titulo--IV {
   padding: 0px 0px 0px 15px;
   margin: 0px 30px; }
-
-.section__servicio--lista--items ul li, .section__servicio--lista--items ol li {
-  padding: 3px;
-  margin: 10px 2px; }
 
 /* -----------------------------------------------------------------------------------------------------*/
 /* RESPONSIVE TABLET */
@@ -252,40 +253,48 @@ footer {
     .navbar .navbar-collapse a {
       font-size: 18pt; }
   /* Footer */
-  .footer__motivarContacto {
-    margin: 0px 40px; }
+  .footer__motivarContacto, .footer__formulario {
+    margin: 0px;
+    padding: 40px; }
   .footer__motivarContacto--titulo {
     font-size: 24pt; }
   .footer__motivarContacto--texto {
-    font-size: 18pt; }
+    font-size: 19pt;
+    padding: 0px 40px; }
   .footer__motivarContacto--mail {
     font-size: 18pt; }
   .footer__motivarContacto--telefono {
     font-size: 18pt; }
   .form-control, .form-group {
     font-size: 18pt; }
+  .form-group, .enviar {
+    width: 700px; }
   .botonEnviar {
-    font-size: 18pt; }
+    font-size: 18pt;
+    margin-top: 15px; }
   .form-check {
-    margin-left: 65px; }
+    padding: 0px 0px 20px 100px;
+    margin: 0px; }
   .footer__copy--texto {
     font-size: 18pt;
     padding: 20px; }
   .footer__redes img {
     width: 45px;
     margin: 15px 55px; }
+  .row {
+    margin: 0px; }
   /* Home */
   /* Section */
   .section__tituloPresentacion {
     height: 1030px; }
   .section__tituloPresentacion--titulo {
-    left: 40px;
+    left: 100px;
     top: 230px;
     margin: 0px;
     width: 450px;
     font-size: 40pt; }
   .section__descripcionPresentacion--texto {
-    left: 40px;
+    left: 100px;
     top: 310px;
     width: 580px;
     font-size: 22pt;
@@ -312,6 +321,8 @@ footer {
     font-weight: 700; }
   /* Secciones */
   /* Section */
+  .section__servicio--contenedor {
+    padding-top: 120px; }
   .section__servicio--contenedor--titulo {
     font-size: 35pt;
     font-weight: 700;
@@ -332,12 +343,11 @@ footer {
   .section__servicio--boton a {
     font-size: 18pt; }
   .section__servicio--lista--items ul p, .section__servicio--lista--items ol p {
-    font-size: 22pt; }
+    font-size: 22pt;
+    width: 450px; }
   .section__servicio--lista--items ul li, .section__servicio--lista--items ol li {
-    font-size: 22pt; }
-  .col-12-xl-6 {
-    width: 450.02px;
-    padding-top: 30px; }
+    font-size: 22pt;
+    width: 450px; }
   /* Campañas Publicitarias */
   #section__servicio--contenedor--titulo--CP {
     text-align: center;
@@ -362,40 +372,173 @@ footer {
 
 /* RESPONSIVE DESKTOP */
 @media only screen and (min-width: 770px) {
+  /* Compartido */
+  /* Header */
   .navbar {
-    background-color: #f1bc52;
-    padding: 0px 16px; }
+    padding: 0px 25px; }
+    .navbar .navbar-toggler-icon {
+      height: 30px;
+      width: 30px; }
     .navbar .navbar-brand {
       position: relative;
-      right: 650px;
+      right: 610px;
       padding: 0px; }
       .navbar .navbar-brand img {
-        width: 90px;
-        height: 90px; }
-  .section__tituloPresentacion--titulo {
-    left: 40px;
-    top: 140px;
-    font-size: 34pt; }
-  .section__tituloPresentacion {
-    height: 450px; }
-  .section__descripcionPresentacion--subtitulo {
-    font-size: 24pt;
-    padding: 40px 40px 0px 40px; }
-  .section__descripcionPresentacion--texto {
-    padding: 40px 40px 40px 40px;
-    font-size: 18pt; }
-  .section__clientes--titulo {
-    font-size: 24pt;
-    padding: 40px; }
+        width: 80px;
+        height: 80px; }
+  /* Footer*/
+  footer {
+    padding: 0px; }
+  .footer__motivarContacto {
+    width: 675px;
+    padding: 30px !important; }
+  .footer__formulario {
+    width: 600px;
+    margin: 0px;
+    padding: 30px !important; }
   .footer__motivarContacto--titulo {
-    font-size: 24pt;
-    padding: 40px; }
+    font-size: 15pt;
+    padding: 40px 40px 20px 40px;
+    margin: 0px; }
   .footer__motivarContacto--texto {
-    font-size: 18pt;
-    padding: 0px 40px 0px 40px; }
+    font-size: 12pt;
+    padding: 0px 60px;
+    margin-bottom: 40px; }
   .footer__motivarContacto--mail {
-    font-size: 18pt;
-    padding: 0px 40px 0px 40px; }
+    font-size: 15pt;
+    padding: 0px 40px; }
   .footer__motivarContacto--telefono {
-    font-size: 18pt;
-    padding: 0px 40px 0px 40px; } }
+    font-size: 15pt;
+    padding: 0px 40px; }
+  .form-group {
+    width: 600px; }
+  .form-check {
+    margin: 0px 0px 20px 0px;
+    padding-left: 90px; }
+  .footer__redes img {
+    margin: 15px 145px; }
+  /* Home */
+  /* Section */
+  .section__tituloPresentacion {
+    background-size: 693px, 660px, auto;
+    height: 680px; }
+  .section__tituloPresentacion--titulo {
+    left: 320px;
+    top: 170px;
+    font-size: 39pt;
+    width: 650px;
+    text-align: center; }
+  .section__descripcionPresentacion--texto {
+    text-align: center;
+    left: 265px;
+    top: 210px;
+    padding: 20px;
+    font-size: 20pt;
+    width: 800px;
+    margin: 0px;
+    background-color: #ff8f4b; }
+  .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 40px; }
+  .section__pdv--img {
+    width: 200px;
+    padding: 25px 0px; }
+  .section__pdv--titulo {
+    width: 300px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 24pt;
+    margin: 0px;
+    animation-name: tit;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; }
+  @keyframes tit {
+    100% {
+      font-weight: 600; } }
+  .section__pdv--descripcion {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16pt;
+    margin: 15px 0px 0px 0px;
+    width: 250px; }
+  .row {
+    margin: 0px; }
+  .section__clientes {
+    height: 620px; }
+  .section__clientes--titulo {
+    text-align: center;
+    font-size: 30pt;
+    padding: 15px;
+    margin-bottom: 60px;
+    background-color: #ff8f4b; }
+  .carousel {
+    padding: 0px 80px; }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    height: 40px; }
+  .section__clientes--img {
+    margin: 0px 380px 0px 380px;
+    height: 400px; }
+  /* Secciones */
+  /* Section */
+  .section__servicio--contenedor {
+    padding-top: 100px; }
+  .section__servicio--contenedor--titulo {
+    font-size: 35pt;
+    left: 280px; }
+  .section__servicio--descripcion {
+    font-size: 20pt;
+    padding: 45px 45px;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: #f1bc52;
+    margin: 0px; }
+  .section__servicio--boton {
+    padding: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .section__servicio--boton a {
+    font-size: 18pt; }
+  .section__servicio--lista--items ul p, .section__servicio--lista--items ol p {
+    font-size: 22pt;
+    width: 500px; }
+  .section__servicio--lista--items ul li, .section__servicio--lista--items ol li {
+    font-size: 22pt;
+    width: 500px; }
+  .col-12-xl-6 {
+    width: 450.02px;
+    padding-top: 30px; }
+  /* Campañas Publicitarias */
+  #section__servicio--contenedor--titulo--CP {
+    text-align: center;
+    padding: 0px;
+    left: 260px;
+    width: 800px; }
+  /* Gestion de RR SS */
+  #section__servicio--contenedor--titulo--GestionRS {
+    text-align: center;
+    width: 500px;
+    margin: 0px 110px; }
+  #ColGS ul p, #ColGS ol p {
+    width: 350px; }
+  #ColGS ul li, #ColGS ol li {
+    width: 350px; }
+  /* Diseño Web */
+  #section__servicio--contenedor--titulo--DW {
+    margin: 0px 175px;
+    padding-left: 0px;
+    width: 350px;
+    text-align: center; }
+  /* Identidad Visual */
+  #section__servicio--contenedor--titulo--IV {
+    padding: 0px;
+    width: 500px;
+    text-align: center;
+    margin: 0px 100px; }
+  #ColID ul p, #ColID ol p {
+    width: 350px; }
+  #ColID ul li, #ColID ol li {
+    width: 350px; } }

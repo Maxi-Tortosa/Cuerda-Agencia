@@ -24,14 +24,14 @@ diseño web, coherencia">
 
 	<header>
 
-		<nav class="container-fluid navbar navbar-expand-lg navbar-light header__navbar "> <!-- Menú Hamburguesa -->
+		<nav class="container-fluid navbar fixed-top navbar-light header__navbar"> <!-- Menú Hamburguesa -->
 		
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 		  
 		  <a class="navbar-brand" href="index.html">                                                 <!-- Slogan -->
-			<img src="multimedia/Logo.png" width="80" height="86" alt="Logo de la agencia" loading="lazy">
+			<img src="multimedia/Logo.png" alt="Logo de la agencia" loading="lazy">
 		  </a> 
 		  
 		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -76,7 +76,8 @@ diseño web, coherencia">
 				<div class="conteiner-fluid section__servicio--lista">
 
 					<div class="row justify-content-center section__servicio--lista--items">
-						  <div class="col-12-xl-6">
+						 
+						<div class="col-12 col-lg-6">
 
 							<ul>
 								<p>DISPOSITIVOS</p>
@@ -86,10 +87,8 @@ diseño web, coherencia">
 							</ul>
 
 						  </div>
-					</div>
 					
-					<div class="row justify-content-center section__servicio--lista--items">
-						  <div class="col-12-xl-6 justify-content-start">
+						  <div class="col-12 col-lg-6 justify-content-start">
 							<ol> <p>¿QUE INCLUYE? </p>
 								<li>Diseño y codeo</li>
 								<li>Contratación de dominio y hosting</li>
@@ -110,8 +109,11 @@ diseño web, coherencia">
 		<footer>
 
 			<!-- Motivar contacto -->
+		  <div class="conteiner-fluid">
 		  
-		  <div class="footer__motivarContacto">	
+			<div class="row">
+		  
+		  <div class="col-12 col-lg-6 footer__motivarContacto align-self-center">	
 			
 			<p class="footer__motivarContacto--titulo">TRABAJEMOS EN ARMONÍA</p> <!-- texto motivando a que nos escriban una consulta -->
 		  
@@ -126,7 +128,7 @@ diseño web, coherencia">
 		  
 			<!-- Formulario -->
 		  
-		  <form class="container footer__formulario">
+		  <form class="col-12 col-lg-6 footer__formulario">
 			
 			<div class="form-group row justify-content-center">
 			  <label for="mail" class="col-form-label"></label>
@@ -156,36 +158,37 @@ diseño web, coherencia">
 			  <label class="col-7 form-check-label" for="check">No soy un robot</label>
 			</div>
 		  
-			<div class="row justify-content-center">
+			<div class="row enviar justify-content-center">
 			<button type="submit" class="btn btn-primary form-group col-4 botonEnviar">ENVIAR</button>
 		   </div>
 		  </form>
-		  
+		  </div>
+		  </div>
 		  <!-- Copyright -->
 		  
 		  <div class="conteiner footer__copy">
 		  <p class="conteiner footer__copy--texto">@Copyright - Cuerda Agencia </p>
 		  </div>
 		  
-<div id="rrss" class="conteiner-fluid footer__redes">
-	<div class="row justify-content-center">
-	<div class="col-3">
-	  <a href="https://www.facebook.com/">
-	<img src="multimedia/iconoFacebook.svg" alt="link al perfil de facebook">
-	  </a>
-  </div>
-	<div class="col-3">
-	<a href="https://www.instagram.com/">
-	<img src="multimedia/iconoInstagram.svg" alt="link al perfil de instagram">
-	</a>
-  </div>
-	<div class="col-3">
-	<a href="https://www.linkedin.com/">
-	<img src="multimedia/iconoLinkedin.svg" alt="link al perfil de linkedin">
-	</a>
-	</div>
-  </div>
-  </div>
+		  <div id="rrss" class="conteiner-fluid footer__redes">
+			<div class="row justify-content-center">
+			<div class="col-3">
+			  <a href="https://www.facebook.com/">
+			<img src="multimedia/iconoFacebook.svg" alt="link al perfil de facebook">
+			  </a>
+		  </div>
+			<div class="col-3">
+			<a href="https://www.instagram.com/">
+			<img src="multimedia/iconoInstagram.svg" alt="link al perfil de instagram">
+			</a>
+		  </div>
+			<div class="col-3">
+			<a href="https://www.linkedin.com/">
+			<img src="multimedia/iconoLinkedin.svg" alt="link al perfil de linkedin">
+			</a>
+			</div>
+		  </div>
+		  </div>
 		  
 		  </footer>
 

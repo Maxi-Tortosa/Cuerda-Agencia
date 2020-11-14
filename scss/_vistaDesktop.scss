@@ -1,0 +1,147 @@
+/* RESPONSIVE DESKTOP */
+
+@media only screen and (min-width: 770px){
+
+    /* Compartido */
+
+    /* Header */
+    
+    .navbar {padding: 0px 25px; 
+        .navbar-toggler-icon{ height: 30px; width: 30px;}
+        .navbar-brand {position: relative; right: 610px; padding: 0px;
+        img {width:80px; height:80px;}
+        }         
+    }
+
+    /* Footer*/
+
+    footer {padding:0px;}
+
+    .footer__motivarContacto {width: 675px; padding:30px !important ;}
+   
+    .footer__formulario{width: 600px; margin: 0px; padding:30px !important;}
+    
+    .footer__motivarContacto--titulo {font-size: 15pt; padding: 40px 40px 20px 40px; margin:0px;}
+    
+    .footer__motivarContacto--texto{font-size: 12pt; padding: 0px 60px ; margin-bottom: 40px; }
+    
+    .footer__motivarContacto--mail {font-size: 15pt; padding: 0px 40px ;}
+    
+    .footer__motivarContacto--telefono {font-size: 15pt; padding: 0px 40px ;}
+
+    .form-group {width: 600px;} 
+
+    .form-check {margin: 0px 0px 20px 0px; padding-left: 90px; }
+
+    .footer__redes {
+        
+        img{ margin: 15px 145px;}  
+        
+    }
+
+    /* Home */
+    
+    /* Section */
+
+    .section__tituloPresentacion{
+        background-size: 693px, 660px, auto;
+        height: 680px;
+        }    
+    
+    .section__tituloPresentacion--titulo {left:320px; top: 170px; font-size: 39pt; width: 650px; text-align: center;}
+
+    .section__descripcionPresentacion--texto {text-align: center;left: 265px; top: 210px; padding: 20px; 
+                                    font-size: 20pt; width: 800px; margin:0px; background-color: $NaranjaP;}
+    
+                            
+   .col-lg-4{display:flex;
+             flex-direction: column;
+             align-items: center;
+             padding: 75px 40px;}
+                                        
+                                    
+    .section__pdv--img {width: 200px; padding:25px 0px;}
+                            
+    .section__pdv--titulo {width: 300px; font-weight: 300; text-align: center; font-size: 24pt; margin: 0px;
+
+    animation-name: tit; animation-duration: 1s; animation-iteration-count: infinite;} 
+
+    @keyframes tit{ 100% {font-weight: 600;} }
+                            
+    .section__pdv--descripcion{text-align: center; font-weight: 300 ; font-size: 16pt; margin: 15px 0px 0px 0px; width: 250px;}
+   
+    .row { margin:0px;}
+
+    .section__clientes {height: 620px;}
+
+    .section__clientes--titulo {text-align:center; font-size:30pt; padding: 15px; margin-bottom:60px;
+                                background-color: $NaranjaP;}
+
+    .carousel {padding: 0px 80px;}
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {width: 40px; height: 40px;}
+
+    .section__clientes--img{margin: 0px 380px 0px 380px; height: 400px;}
+
+     /* Secciones */
+
+    /* Section */
+    
+    .section__servicio--contenedor {padding-top: 100px;}
+
+    .section__servicio--contenedor--titulo { font-size: 35pt; left: 280px;}
+    
+        .section__servicio--descripcion {font-size: 20pt; padding: 45px 45px; font-weight: 300;
+        line-height: 1.5; background-color: $AmarilloP; margin:0px;}
+        
+        .section__servicio--boton {padding: 25px 0px; display:flex; 
+        flex-direction: row; justify-content: center;}
+        
+        .section__servicio--boton a {font-size: 18pt; } 
+        
+            
+        .section__servicio--lista--items {
+        ul, ol { 
+        p{ font-size: 22pt; width: 500px;}    
+        li { font-size: 22pt; width: 500px;}
+        }
+        }
+        
+        .col-12-xl-6 { width: 450.02px; padding-top: 30px;}
+        
+        /* Campañas Publicitarias */
+        
+        #section__servicio--contenedor--titulo--CP{text-align: center; padding: 0px; left: 260px; width: 800px;}
+        
+        /* Gestion de RR SS */
+        
+        #section__servicio--contenedor--titulo--GestionRS { text-align: center; width: 500px; margin: 0px 110px; }
+        
+        
+        #ColGS {
+            ul, ol { 
+            p{ width: 350px;}    
+            li {width: 350px;}
+            }
+            }
+
+        /* Diseño Web */
+        
+        #section__servicio--contenedor--titulo--DW{ margin: 0px 175px; padding-left: 0px; width: 350px; text-align: center;}
+
+        /* Identidad Visual */
+        
+        #section__servicio--contenedor--titulo--IV {padding: 0px; width: 500px; text-align: center; margin: 0px 100px;}
+        
+        #ColID{
+            ul, ol { 
+            p{ width: 350px;}    
+            li {width: 350px;}
+            }
+            }
+    
+   
+
+
+    
+}

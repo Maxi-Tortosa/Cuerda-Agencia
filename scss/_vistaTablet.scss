@@ -20,28 +20,35 @@
            
     /* Footer */
     
-    .footer__motivarContacto { margin: 0px 40px}
-    
+    .footer__motivarContacto, .footer__formulario { margin: 0px; padding: 40px;}
+
+       
     .footer__motivarContacto--titulo {font-size: 24pt;}
     
-    .footer__motivarContacto--texto{font-size: 18pt; }
+    .footer__motivarContacto--texto{font-size: 19pt; padding: 0px 40px;}
     
     .footer__motivarContacto--mail {font-size: 18pt; }
     
     .footer__motivarContacto--telefono {font-size: 18pt; }
     
     .form-control, .form-group {font-size: 18pt;}
+
+    .form-group, .enviar {width: 700px;} 
+
     
-    .botonEnviar {font-size: 18pt;}
     
-    .form-check{margin-left: 65px; }
+    .botonEnviar {font-size: 18pt; margin-top:15px;}
+    
+    .form-check{padding: 0px 0px 20px 100px; margin: 0px;}
     
     .footer__copy--texto{font-size: 18pt; padding: 20px;}
     
     .footer__redes {
         
         img{width: 45px; margin: 15px 55px;}  
+        
     }
+    .row {margin: 0px;}
 
     /* Home */
 
@@ -49,9 +56,9 @@
 
     .section__tituloPresentacion {height: 1030px;}
     
-    .section__tituloPresentacion--titulo {left:40px; top: 230px; margin: 0px; width: 450px; font-size: 40pt;}
+    .section__tituloPresentacion--titulo {left:100px; top: 230px; margin: 0px; width: 450px; font-size: 40pt;}
 
-    .section__descripcionPresentacion--texto {left:40px; top: 310px; width: 580px; font-size: 22pt;margin: 0px; }
+    .section__descripcionPresentacion--texto {left:100px; top: 310px; width: 580px; font-size: 22pt;margin: 0px; }
     
     .section__pdv--img {width: 200px; padding:15px 0px 15px 0px;}
 
@@ -64,6 +71,8 @@
     /* Secciones */
 
     /* Section */
+
+    .section__servicio--contenedor{padding-top: 120px;}
     
     .section__servicio--contenedor--titulo {font-size: 35pt;  font-weight: 700; 
     margin: 0px; background-color: $AmarilloP;}
@@ -79,12 +88,10 @@
         
     .section__servicio--lista--items {
     ul, ol { 
-    p{ font-size: 22pt;}    
-    li { font-size: 22pt;}
+    p{ font-size: 22pt; width: 450px;}    
+    li { font-size: 22pt; width: 450px;}
     }
     }
-    
-    .col-12-xl-6 { width: 450.02px; padding-top: 30px;}
     
     /* Campañas Publicitarias */
     
@@ -101,6 +108,5 @@
     /* Identidad Visual */
     
     #section__servicio--contenedor--titulo--IV {padding: 0px; width: 500px; text-align: center; margin: 0px 100px;}
-    
-    
+       
 }

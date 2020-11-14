@@ -13,7 +13,7 @@ a {text-decoration: none;}
 .navbar {background-color: $AmarilloP; padding: 0px 16px; 
         button {border: none;}
         .navbar-toggler-icon{ height: 25px; width: 25px;}
-        .navbar-brand {position: relative; right: 115px; padding: 0px;
+        .navbar-brand {position: relative; right: 125px; padding: 0px;
         img {width:70px; height:70px;}
         }
            
@@ -27,12 +27,16 @@ footer {background-color: black;
     font-weight: 300;
     padding: 15px 0px 0px 0px;}
 
-.footer__motivarContacto {padding:15px;}
+.footer__motivarContacto{padding-bottom:0px !important;}
+
+.footer__formulario {padding-top: 0px !important;}
+
+.form-group, .enviar {width: 350px; margin: 0px;} 
 
 .footer__motivarContacto--titulo {font-size: 17pt;
                                   font-weight: 500;}
 
-.footer__motivarContacto--texto{font-size:12pt;}
+.footer__motivarContacto--texto{font-size:12pt; padding: 0px 20px;}
 
 .footer__motivarContacto--mail, .footer__motivarContacto--telefono {font-weight: 500;
                                                                     font-size: 12pt;}                       
@@ -41,7 +45,10 @@ footer {background-color: black;
             font-weight: 700;
             font-size: 12pt;
             padding:2px;
-            color:black;}
+            color:black;
+            }
+            
+.form-check{margin: 0px 0px 20px 40px; }          
 
 .footer__copy{background-color:$AmarilloP;}
 
@@ -100,10 +107,6 @@ footer {background-color: black;
 
 .section__clientes--titulo {font-size: 17pt; padding: 15px; margin:0px;}
 
-.row { margin:0px;}
-
-.section__clientes--logoCliente {padding:0px; display: flex; flex-direction: row; justify-content: center;}
-
 .section__clientes--img{margin: 0px 40px 0px 40px;}
 
 /* Secciones */
@@ -112,10 +115,12 @@ footer {background-color: black;
 
 .section__servicio--contenedor{background-image: url("../multimedia/imagenPresentacion.jpg");
     background-size: 693px, 660px, auto;
-    padding: 30px 25px 30px 25px;}
+    padding: 80px 25px 80px 25px;
+    }
 
 .section__servicio--contenedor--titulo {font-size: 29pt;  font-weight: 700;
-margin: 0px; background-color: $AmarilloP;}
+margin: 0px; background-color: $AmarilloP;
+    position: relative; top: 33px;}
 
 .section__servicio--descripcion {font-size: 13pt; padding: 15px 25px 15px 25px; font-weight: 300;
     line-height: 1.5; background-color: $AmarilloP; margin:0px;}
@@ -133,13 +138,13 @@ background-size: 693px, 660px, auto;}
 
 .section__servicio--lista--items {
 ul, ol { list-style: none; padding: 0px; margin: 15px 0px; font-size: 22px; 
-p{ background-color: $CelesteC; font-size: 20pt; font-weight: 700;text-align: center; }
 
-li {background-color: $NaranjaP; padding: 0px; margin: 10px 5px;text-align: center;}
+p{ background-color: $CelesteC; font-size: 20pt; font-weight: 700;text-align: center; width: 300px;margin:0px;padding:0px;}
+
+li {background-color: $NaranjaP; padding: 10px 0px; margin: 10px 0px;text-align: center; width: 300px;}
+
 }
 }
-
-.col-12-xl-6 { width: 300.02px;}
 
 /* Campañas Publicitarias */
 
@@ -157,44 +162,9 @@ li {background-color: $NaranjaP; padding: 0px; margin: 10px 5px;text-align: cent
 
 #section__servicio--contenedor--titulo--IV {padding: 0px 0px 0px 15px; margin: 0px 30px;}
 
-.section__servicio--lista--items {
-ul, ol {  
-
-li {padding: 3px; margin: 10px 2px;}
-}
-}
-
-
 
 /* -----------------------------------------------------------------------------------------------------*/
 
 @import "vistaTablet";
 
-    /* RESPONSIVE DESKTOP */
-
-@media only screen and (min-width: 770px){
-
-    .navbar {background-color: $AmarilloP; padding: 0px 16px;
-        .navbar-brand {position: relative; right: 650px; padding: 0px;
-                    img {width: 90px; height: 90px;}
-                }	}
-
-    .section__tituloPresentacion--titulo {left:40px; top: 140px; font-size: 34pt;}
-
-    .section__tituloPresentacion {height: 450px;}
-
-    .section__descripcionPresentacion--subtitulo {font-size: 24pt; padding: 40px 40px 0px 40px;}
-
-    .section__descripcionPresentacion--texto {padding: 40px 40px 40px 40px; font-size: 18pt;}
-        
-    .section__clientes--titulo {font-size: 24pt; padding: 40px;}
-
-    .footer__motivarContacto--titulo {font-size: 24pt; padding: 40px;}
-    
-    .footer__motivarContacto--texto{font-size: 18pt; padding: 0px 40px 0px 40px; }
-    
-    .footer__motivarContacto--mail {font-size: 18pt; padding: 0px 40px 0px 40px;}
-    
-    .footer__motivarContacto--telefono {font-size: 18pt; padding: 0px 40px 0px 40px;}
-    
-}
+@import "vistaDesktop";
